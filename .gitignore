@@ -1,4 +1,14 @@
 venv
 venv/*
 
-data/*
+data/
+**/data/
+**/**/data/
+
+weight/
+**/weight/
+**/**/weight/
+venv/
+*.h5
+*.pth
+*.pt
